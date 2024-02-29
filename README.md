@@ -10,7 +10,9 @@
 - Loop through each word in the list of words:
 
 if word in word_count: checks if the word is already in the dictionary.
+
 If yes, increment the count for that word by 1 (word_count[word] += 1).
+
 If not, add the word to the dictionary with a count of 1 (word_count[word] = 1).
 
 - Use a Python dictionary (word_count) to store the count of each unique word and show which words show up the most.
